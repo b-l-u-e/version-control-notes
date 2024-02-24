@@ -95,6 +95,8 @@ git config --global init.defaultBranch main
 
 - `git log` displays details on the author who made the commit and the date and time of when the commit was made.
 
+- [Understand how to write git commit messages](https://cbea.ms/git-commit/)
+
 1: Create a repository and clone repository to your machine.
 
 2: Git work flow: `Modified` -> `staged` -> `committed`
