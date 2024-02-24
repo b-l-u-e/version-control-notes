@@ -57,7 +57,43 @@ Every time you commit, or save the state of your project, Git takes a picture of
   ```
 - Go to `github` -> `Settings` -> `SSH and GPG keys` -> `create new SSH key` -> `Paste your public key` -> Click `add SSH key`.
 
+
+**Important concepts to understand about Git commands**
+
+- **The basic Git syntax**: `program | action | destination`
+
+**For example:** 
+
+- `git add .` is read as `git | add | .` , where the period represents everything in current directory.
+
+- `git commit -m "message"` is read as `git | commit -m | "message"` 
+
+- `git status` is read as `git | status | (no destination)`
+
+- Changing the Git commit message editor by this command: 
+    ```
+    git config --global core.editor "code --wait"
+    ```
+
 ## **How git works?**
+
+Before you start!
+
+- Github updated the way it names the default branch from master to main.
+
+- Git version from 2.28 or later use main as default branch
+
+- To check the version `git --version`
+
+- set your local default git branch to main using this command.
+
+```
+git config --global init.defaultBranch main
+```
+
+- `git remote -v` displays the URL of the repository you created on GitHub, which is the remote for your local copy.
+
+- `git log` displays details on the author who made the commit and the date and time of when the commit was made.
 
 1: Create a repository and clone repository to your machine.
 
