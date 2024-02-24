@@ -1,4 +1,4 @@
-# version-control-notes
+# Version control key notes
 1: Learn how modern software developers collaborate across the world without messing up each other's code.
 
 2: This involves using version control or subversion to bring order to the chaos of massive software projects that have the potential for mistakes and bugs. 
@@ -8,3 +8,17 @@
 4: Learn how easy it is to use piping and redirection to create powerful workflows that will automate your work, saving you time and effort.
 
 5: Develop a strong conceptual understanding of the Git technology and how it is used in software development projects to manage team files. You will install Git, create a local repository, create a commit, create a remote repository and push commits to a remote repository.
+
+## Topics
+
+- [Git](/Git.md)
+
+- Difference between Git and GitHub
+
+- Learn about Git commands
+
+-  Learn about bash commands [bash](/Version-control.md)
+
+- Difference between staging and production
+
+- More Git commands can find here: [Git commands](/Atlassian-Git-Cheatsheet.pdf)
